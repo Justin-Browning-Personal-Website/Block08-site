@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Raleway|Open+Sans|Satisfy&display=swap');
-
+*{
+    box-sizing: border-box ;
+}
 .name{ 
     float: left;
 
@@ -43,7 +45,7 @@ header::after{
     content: '';
 }
 body{
-    background: rgba(122, 120, 235, 0.672);
+    background: rgba(107, 156, 240, 0.808);
     max-width: 960px;
     margin: auto;
     height: 999px;
@@ -62,7 +64,7 @@ h2, h1{
     font-family: raleway ;
 }
 
-.links a.Home {
+.links a.Active {
     border-bottom: 1px solid black;
 }
 .links a {
@@ -73,4 +75,32 @@ h2, h1{
     margin-left: auto;
     margin-right: auto;
     
+}
+.About1{
+    border-bottom: 2px solid ; 
+    font-size: 50px;
+    text-align: center;
+    font-family:monospace
+    
+}
+.stud{
+    
+}
+.P1{
+    font-family: monospace;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+}
+.About2{
+    border-bottom: 2px solid ; 
+    font-size: 50px;
+    text-align: center;
+    font-family:monospace
+}
+.P2{
+    font-family: monospace;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
 }
