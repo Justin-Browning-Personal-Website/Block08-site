@@ -37,7 +37,9 @@ header{
     padding: .5em 1em;
     box-shadow: 0 2px 4px -2px black;
     background: white;
-    width ;
+
+    
+
 }
 header::after{
     display: block;
@@ -80,15 +82,14 @@ h2, h1{
     border-bottom: 2px solid ; 
     font-size: 50px;
     text-align: center;
-    font-family:monospace
-    
-}
-.stud{
+    font-family:monospace;
+    background-color: #40c6b499;
+    width: 50%;
+    margin-left: 170px;
     
 }
 .P1{
     font-family: monospace;
-    display: inline-block;
     float: left;
     font-size: 20px;
 }
@@ -96,11 +97,36 @@ h2, h1{
     border-bottom: 2px solid ; 
     font-size: 50px;
     text-align: center;
-    font-family:monospace
+    font-family:monospace;
+    background-color: #40c6b499;
+    width: 50%;
+    margin-left: 170px;
 }
 .P2{
     font-family: monospace;
-    display: inline-block;
     float: left;
     font-size: 20px;
 }
+footer{
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 370px;
+    right: 370px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.imglinks{
+    height: 55px;
+    width: 55px;
+    
+   
+    
+}
+
+
